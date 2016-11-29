@@ -1,0 +1,245 @@
+/* General style */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+/* Navigation Bar style */
+.navbar {
+  background: rgba(0, 0, 0, 0.3);
+  /*background: transparent;*/
+  border-style: none;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+
+.nav.navbar-nav li a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav.navbar-nav li a:hover {
+  color: grey;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav.navbar-nav.navbar-right li button {
+  margin-right: 10px;
+  background: transparent;
+}
+
+/* Welcome Carousel style */
+#welcome-carousel,
+#welcome-carousel .carousel-inner,
+#welcome-carousel .item {
+  height: 100%;
+  margin: 0;
+}
+
+#welcome-carousel .slide1 {
+  background-image: url('../img/welcome/carousel/ma_long.jpg');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#welcome-carousel .slide2 {
+  background-image: url('../img/welcome/carousel/timo_boll.jpg');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#welcome-carousel .slide3 {
+  background-image: url('../img/welcome/carousel/bernadette_szocs.jpg');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#welcome-carousel h1 {
+  font-size: 5em;
+}
+
+#welcome-carousel p {
+  font-size: 2em;
+  font-style: italic;
+}
+
+/* Coaches page style */
+#welcome-coaches {
+  background-image: url('../img/welcome/coaches/_background.jpg');
+  margin: 0;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+#welcome-coaches .content {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+}
+
+#welcome-coaches .row {
+  width: 100%;
+}
+
+#welcome-coaches .caption {
+  color: white;
+  border-radius: 5px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#welcome-coaches h3.sentence {
+  font-style: italic;
+}
+
+#welcome-coaches h4 {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.label-diamond {
+  color: black;
+  background-color: white;
+}
+/* Access page style */
+#welcome-access {
+  background-image: url('../img/welcome/access/_background.jpg');
+  margin: 0;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+#jump-access {
+  float: left;
+  height: 600px;
+  width: 48%;
+  border-radius: 5px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#jump-inbetween {
+  float: left;
+  height: 600px;
+  width: 4%;
+}
+
+#jump-map {
+  float: left;
+  height: 600px;
+  width: 48%;
+}
+
+#welcome-access .transport {
+  display: inline-block;
+}
+
+#welcome-access #bus-96 {
+  color: black;
+}
+
+#welcome-access .separator {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* Prices page style */
+#welcome-prices {
+  background-image: url('../img/welcome/prices/_background.jpg');
+  margin: 0;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+#jump-prices {
+  height: 600px;
+  width: 80%;
+  border-radius: 5px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+.price-icon {
+  float: left;
+  width: 10%;
+}
+
+.prices-list {
+  float: left;
+  width: 85%;
+}
+
+/* Numbers page style */
+#welcome-numbers {
+  background-image: url('../img/welcome/numbers/_background.jpg');
+  margin: 0;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+#welcome-numbers-body {
+  height: 600px;
+  width: 80%;
+  border-radius: 5px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#nb-of-jumpers {
+  font-size: 150px;
+  font-weight: bold;
+}
+
+#ageChartDiv {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1% 0 1%
+}
+
+#genderChartDiv {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1% 0 1%
+}

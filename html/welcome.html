@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS 3.3.7 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon/favicon.png" type="image/x-icon">
+
+    <!-- Metro DNA (logos) -->
+    <link rel="stylesheet" href="../css/external/metrodna.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../css/external/font-awesome-4.6.3/css/font-awesome.min.css">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="../css/welcome.css">
+
+    <title>Jump TT</title>
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#welcome-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#welcome-carousel">
+            <img src="../img/logo/logo.gif" alt="Jump's logo">
+          </a>
+        </div>
+
+        <!-- Collect different navbar elements for toggling -->
+        <div class="collapse navbar-collapse" id="welcome-navbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#welcome-carousel">HOME<span class="sr-only">(current)</span></a></li>
+            <li><a href="#welcome-coaches">ENTRAINEURS</a></li>
+            <li><a href="#welcome-access">ACCES</a></li>
+            <li><a href="#welcome-prices">TARIFS</a></li>
+            <li><a href="#welcome-numbers">QUELQUES CHIFFRES</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><button type="button" class="btn btn-info btn-sm navbar-btn">Forum</a></li>
+            <li><button type="button" class="btn btn-warning btn-sm navbar-btn">Membres</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Welcome Carousel -->
+    <div id="welcome-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#welcome-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#welcome-carousel" data-slide-to="1"></li>
+        <li data-target="#welcome-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="item active">
+          <div class="slide1"></div>
+          <div class="carousel-caption">
+            <h1>Bienvenue à la Jump</h1>
+            <p>Club de Tennis de Table au coeur de Belleville-Ménilmontant</p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="item">
+          <div class="slide2"></div>
+          <div class="carousel-caption">
+            <h1>Progresser et s'amuser</h1>
+            <p>3 entraîneurs, 5 créneaux,  18 tables</p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="item">
+          <div class="slide3"></div>
+          <div class="carousel-caption">
+            <h1>Tous niveaux</h1>
+            <p>Que vous soyez débutant ou numéroté</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrows controller -->
+      <a class="left carousel-control" href="#welcome-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+
+      <a class="right carousel-control" href="#welcome-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+
+    </div>
+
+    <!-- Coaches page -->
+    <div id="welcome-coaches" class="container-fluid">
+      <h1 class="header">Nos entraîneurs</h1>
+      <div class="content">
+        <div class="row">
+          <!-- Ali Sadrzadeh -->
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <img src="../img/welcome/coaches/ali_sadrzadeh.jpg" class="img-circle img-thumbnail center-block" alt="Ali Sadrzadeh">
+            <div class="caption">
+              <h2>Ali Sadrzadeh</h2>
+              <h3>Entraineur régional</h3>
+              <h3 class="sentence">"- Keep it simple -"</h3>
+              <div class="badges">
+                <h4>
+                  <span class="label label-diamond">
+                    <i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;n°906
+                  </span>
+                <h4>
+                  <span class="label label-warning">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;As 2016
+                  </span>
+                </h4>
+                <h4>
+                  <span class="label label-warning">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;As 2015
+                  </span>
+                </h4>
+                <h4>
+                  <span class="label label-warning">
+                    <i class="fa fa-hourglass" aria-hidden="true"></i>&nbsp;&nbsp;Since 1999
+                  </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lautfi Habib -->
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <img src="../img/welcome/coaches/lautfi_habib.jpg" class="img-circle img-thumbnail center-block" alt="Lautfi Habib">
+            <div class="caption">
+              <h2>Lautfi Habib</h2>
+              <h3>Entraineur adjoint</h3>
+              <h3 class="sentence">"- Make it count -"</h3>
+              <h4><span class="label label-default">1500</span></h4>
+              <h4><span class="label label-primary">Soft</span></h4>
+            </div>
+          </div>
+
+          <!-- Danid Khing -->
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <img src="../img/welcome/coaches/danid_khing.jpg" class="img-circle img-thumbnail center-block" alt="Danid Khing">
+             <div class="caption">
+              <h2>Danid Khing</h2>
+              <h3>Brevet d'état 1</h3>
+               <h3 class="sentence">"- Go ahead -"</h3>
+              <h4><span class="label label-default">2000</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Access page -->
+    <div id="welcome-access" class="container-fluid">
+      <h1 class="header">Accès</h1>
+      <div id="jump-access" class="container-fluid">
+        <h2>Adresse</h2>
+        <div class="container-fluid">
+          <p>Gymnase de la Fontaine au Roi</p>
+          <p>100 rue de la Fontaine au Roi</p>
+          <p>75011 Paris</p>
+        </div>
+        <hr class="separator">
+        <div class="container-fluid">
+            <h2>Transports</h2>
+          <h4>Métro</h4>
+          <div>
+            <span class="metro symbole">Metro</span>
+            <span class="metro ligne2">Ligne 2</span>
+            <h4 class="transport"><span class="label label-primary">Couronnes</span></h4>
+          </div>
+          <div>
+            <span class="metro symbole">Metro</span>
+            <span class="metro ligne11">Ligne 11</span>
+            <h4 class="transport"><span class="label label-primary">Belleville</span></h4>
+          </div>
+          <h4>Bus</h4>
+          <div>
+            <h4 class="transport"><span id="bus-96" class="label label-warning">96</span></h4>
+            <h4 class="transport"><span class="label label-default">Couronnes</span></h4>
+          </div>
+        </div>
+        <hr class="separator">
+      </div>
+       <div id="jump-inbetween" class="container-fluid">
+      </div>
+      <div id="jump-map"></div>
+    </div>
+
+    <!-- Prices page -->
+    <div id="welcome-prices" class="container-fluid">
+      <h1 class="header">Tarifs</h1>
+      <div id="jump-prices" class="container-fluid">
+        <h2>Adhésion</h2>
+        <div class="container-fluid">
+          <img class="price-icon" src="../img/welcome/prices/bat.svg" alt="Bat icon">
+          <table class="table prices-list">
+            <tbody>
+              <tr>
+                <td>Loisirs (Adultes & Jeunes)</td><td class="col-xs-2">140 €</td>
+              </tr>
+              <tr>
+                <td>Compétition (Jeunes)</td><td>150 €</td>
+              </tr>
+              <tr>
+                <td>Compétition (Adultes & Juniors)</td><td>160 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2>Critérium</h2>
+        <div class="container-fluid">
+          <img class="price-icon" src="../img/welcome/prices/medal.svg" alt="Medal icon">
+          <table class="table prices-list">
+            <tbody>
+              <tr>
+                <td>Benjamins et Poussins</td><td class="col-xs-2">12 €</td>
+              </tr>
+              <tr>
+                <td>Juniors, Cadets et Minimes</td><td>25 €</td>
+              </tr>
+              <tr>
+                <td>Seniors</td><td>38 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2>Matériel</h2>
+        <div class="container-fluid">
+          <img class="price-icon" src="../img/welcome/prices/jersey.svg" alt="Jersey icon">
+          <table class="table prices-list">
+            <tbody>
+              <tr>
+                <td>Maillot du club</td><td class="col-xs-2">5 €</td>
+              </tr>
+              <tr>
+                <td>Raquette</td><td>30 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Numbers page -->
+    <div id="welcome-numbers" class="container-fluid">
+      <h1 class="header">La JUMP en quelques chiffres</h1>
+      <div id="welcome-numbers-body" class="container-fluid">
+        <h2 id="nb-of-jumpers"></h2>
+        <h3>Adhérents</h3>
+        <div class="row">
+      </div>
+      <div id=ageChartDiv>
+        <canvas id="ageChart" width="100"></canvas>
+      </div>
+      <div id=genderChartDiv>
+        <canvas id="genderChart" width="100"></canvas>
+      </div>
+      <div id=genderChartDiv>
+        <canvas id="genderChart" width="100"></canvas>
+      </div>
+    </div>
+
+    <!-- JQuery 2.1.3 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Bootstrap JS 3.3.7 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Chart.js bundle 2.3.0 -->
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.min.js></script>
+
+    <!-- CountUp -->
+    <script src="../js/countUp.js"></script>
+
+    <script>
+      /* Google Jump map */
+      function initMap() {
+        var jumpLocation = {lat: 48.869690, lng: 2.378499};
+        var map = new google.maps.Map(document.getElementById('jump-map'), {
+          zoom: 16,
+          center: jumpLocation
+        });
+        var marker = new google.maps.Marker({
+          position: jumpLocation,
+          map: map
+        });
+      }
+
+      /* Smooth Scrolling */
+      $(document).on('click', 'a', function (event) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+      });
+
+      /* Count Up Animation */
+      var numAnim = new CountUp("nb-of-jumpers", 0, 278);
+      numAnim.start();
+
+      /* Numbers Chart */
+      /* Age Chart */
+      var ageCtx = document.getElementById("ageChart");
+      var ageData = {
+        labels: [
+          "Jeunes",
+          "Adultes",
+          "Vétérans"
+        ],
+        datasets: [
+          {
+            data: [114, 104, 50],
+            backgroundColor: [
+              'rgba(255, 99, 132, 0.7)',
+              'rgba(54, 162, 235, 0.7)',
+              'rgba(255, 206, 86, 0.7)'
+            ],
+            hoverBackgroundColor: [
+              'rgba(255, 99, 132, 0.9)',
+              'rgba(54, 162, 235, 0.9)',
+              'rgba(255, 206, 86, 0.9)'
+            ]
+        }]
+      };
+      var ageChart = new Chart(ageCtx, {
+          type: 'doughnut',
+          data: ageData
+      });
+
+      /*Gender Chart*/
+      var genderCtx = document.getElementById("genderChart");
+      var genderData = {
+        labels: [
+          "Hommes",
+          "Femmes"
+        ],
+        datasets: [
+          {
+            data: [235, 43],
+            backgroundColor: [
+              'rgba(54, 162, 235, 0.7)',
+              'rgba(255, 99, 132, 0.7)'
+            ],
+            hoverBackgroundColor: [
+              'rgba(54, 162, 235, 0.9)',
+              'rgba(255, 99, 132, 0.9)'
+            ]
+        }]
+      };
+      var genderChart = new Chart(genderCtx, {
+          type: 'doughnut',
+          data: genderData
+      });
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNm-b2vOrdz8JWXzxlUzlsj-dUWJdi_xI&callback=initMap" async defer></script>
+
+  </body>
+</html>
